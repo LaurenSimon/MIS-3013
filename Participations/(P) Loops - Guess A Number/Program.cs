@@ -32,10 +32,10 @@ namespace RandomGuess
             Console.WriteLine("Guess a number");
             Guess = Convert.ToInt32(Console.ReadLine());
             
-            while (Guess != result);
+            while (Guess != result)
             {
                 Console.WriteLine("Wrong, guess again");
-                Console.ReadLine();
+                Guess = Convert.ToInt32(Console.ReadLine());
             }
             Console.WriteLine("Correct!");
 
