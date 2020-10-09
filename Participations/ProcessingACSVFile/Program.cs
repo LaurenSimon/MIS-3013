@@ -57,6 +57,8 @@ namespace ProcessingACSVFile
             Console.WriteLine($"Total sales of shipped orders is {sum.ToString("C2")}.");
 
             Console.ReadKey();
+            // I genuinely did not know how to complete the problem but I gave it my best
+            // effort. I hope to get clarity on this topic either during class or office hours.
         }
     }
 }
