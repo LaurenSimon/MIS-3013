@@ -7,12 +7,19 @@ namespace ProcessingACSVFile
     {
         static void Main(string[] args)
         {
+            // Create a Console application that will read (File.ReadAllLines) in the sales_data_sample.csv .  We want to sum up all of 
+            // the sales with the status of Shipped and output the total sales by year (e.g. how much did we sell in 2003, 2004, 2005) 
+            // as well as total sales by month across all years (e.g. how much did we sell in January of 2003/2004/2005 and February of 
+            // 2003/2004/2005 etc.), make sure to output it as January/February etc and not 1/2.
+
             // string filePath = @"C:\Users\Lauren\Downloads\sales_data_sample.csv";
             string filePath = @"sales_data_sample.csv";
 
             string[] lines = File.ReadAllLines(filePath);
 
-            // ORDERNUMBER,QUANTITYORDERED,PRICEEACH,ORDERLINENUMBER,SALES,ORDERDATE,STATUS,QTR_ID,MONTH_ID,YEAR_ID,PRODUCTLINE,MSRP,PRODUCTCODE,CUSTOMERNAME,PHONE,ADDRESSLINE1,ADDRESSLINE2,CITY,STATE,POSTALCODE,COUNTRY,TERRITORY,CONTACTLASTNAME,CONTACTFIRSTNAME,DEALSIZE
+            // ORDERNUMBER,QUANTITYORDERED,PRICEEACH,ORDERLINENUMBER,SALES,ORDERDATE,STATUS,QTR_ID,MONTH_ID,YEAR_ID,PRODUCTLINE,MSRP,
+            // PRODUCTCODE,CUSTOMERNAME,PHONE,ADDRESSLINE1,ADDRESSLINE2,CITY,STATE,POSTALCODE,COUNTRY,TERRITORY,CONTACTLASTNAME,
+            // CONTACTFIRSTNAME,DEALSIZE
             /*
              * Sales = 4
              * Status = 6
