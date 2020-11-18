@@ -6,7 +6,6 @@ namespace Classes_Toy
 {
     class ToyBox
     {
-
         public List<Toy> Toys { get; set; }
 
         public ToyBox()
@@ -16,8 +15,10 @@ namespace Classes_Toy
 
         public Toy GetRandomToy ()
         {
+            Random rand = new Random();
+            int index = rand.Next(0, Toys.Count);
 
+            Toy rToy = Toys[index];
         }
-
     }
 }
