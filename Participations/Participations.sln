@@ -19,9 +19,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Processing a CSV File - 2",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Methods - Simple Method", "Methods - Simple Method\Methods - Simple Method.csproj", "{D84D2EB8-D2A0-4BCA-A527-1598C9217F25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes_Toy", "Classes_Toy\Classes_Toy.csproj", "{E90AF185-A43C-4428-BD21-22F093589CE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classes_Toy", "Classes_Toy\Classes_Toy.csproj", "{E90AF185-A43C-4428-BD21-22F093589CE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes- Rectangle and Circle", "Classes- Rectangle and Circle\Classes- Rectangle and Circle.csproj", "{43AAD955-E9B9-4010-AA63-E37E74327032}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classes- Rectangle and Circle", "Classes- Rectangle and Circle\Classes- Rectangle and Circle.csproj", "{43AAD955-E9B9-4010-AA63-E37E74327032}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes - TextBox", "(P) Classes - TextBox\Classes - TextBox.csproj", "{7C67DC6A-38C4-4BAB-A527-266C1CADD4F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{43AAD955-E9B9-4010-AA63-E37E74327032}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43AAD955-E9B9-4010-AA63-E37E74327032}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43AAD955-E9B9-4010-AA63-E37E74327032}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C67DC6A-38C4-4BAB-A527-266C1CADD4F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C67DC6A-38C4-4BAB-A527-266C1CADD4F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C67DC6A-38C4-4BAB-A527-266C1CADD4F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C67DC6A-38C4-4BAB-A527-266C1CADD4F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
